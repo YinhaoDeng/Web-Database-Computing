@@ -51,7 +51,7 @@
 
 ## Client/Server&NodeJS
 - TCP/IP 5-layer model of the Internet
-  >5层的作？，怎样相互连接？
+  >5层的作用？，怎样相互连接？
 - URLs
   >URL的结构？每个部分的作用？和TCP/IP的关系？Protocol是什么？Protocol是属于哪个层的？hostname的作用？Portnumber?  _Can I run two node.js (express) servers on one machine? 如果可以，限制有哪些？它与哪一个Internet model有联系？_
 - HTTP requests and Responses
