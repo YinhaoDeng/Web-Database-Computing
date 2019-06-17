@@ -12,9 +12,11 @@
   - Client/Server & NodeJS (30 marks)
   - Databases (30 marks)
   - Security (10 marks)
+---------------------------------
 
 
-## [HTML & CSS 点我](html&css&validationSummerize.md)
+
+## [1.0 HTML & CSS 点我](subSummerize/html&css&validationSummerize.md)
 - HTML
   - Syntax & Semantics  
     tags eg. heading tag, paragraph tag, a tag;  
@@ -29,7 +31,9 @@
   What valid, what invalid? Validation的重要性？what can results if validation is unused?
 
 
-## [JavaScript&Vue](javaScript&vueSummerize.md)
+
+
+## [2.0 JavaScript&Vue](subSummerize/javaScript&vueSummerize.md)
 - JavaScript
   - Syntax & Semantics
   - DOM
@@ -40,7 +44,9 @@
   - Attributes, classes & styles
   - Conditional & List rendering
 
-## UserExperience
+
+
+## [3.0 UserExperience](subSummerize/userExperienceSummerize.md)
 - Basic Principles of good website design
 - Cognitive & Kinematic Load
   >怎样影响用户界面
@@ -49,7 +55,9 @@
 - WCAG 4 Principles of Accessibility
   >是什么？implications for a given website.  给定一个网页图，说说他哪里好，符合什么要素？
 
-## Client/Server&NodeJS
+
+
+## [4.0 Client/Server&NodeJS](subSummerize/clientServerNodeJSSummerize.md)
 - TCP/IP 5-layer model of the Internet
   >5层的作？，怎样相互连接？
 - URLs
@@ -67,7 +75,9 @@
   - Middleware
   >概念？
 
-## Databases
+
+
+## [5.0 Databases](subSummerize/databasesSummerize.md)
 - Basic Principles of Relational Databases
   > Advantages/Disadvantages to other storage methods?为甚不把一堆东西放在一个文件里？
 - E-R models
@@ -80,7 +90,9 @@
 - Performance
   - Order of Operations and Performance challenges
 
-## Security 
+
+
+## [6.0 Security](securitySummerize.md) 
 - Best practice for handling passwords and user data
  >熟悉 best practice fo handling, password hashing, password salting, how do they provide us with the security?
 - Diferent types of threats and mitigation
