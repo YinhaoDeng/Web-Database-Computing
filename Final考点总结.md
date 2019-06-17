@@ -14,7 +14,7 @@
   - Security (10 marks)
 
 
-## [HTML & CSS](week1/week1Summerize.md)
+## [HTML & CSS 点我](html&css&validationSummerize.md)
 - HTML
   - Syntax & Semantics  
     tags eg. heading tag, paragraph tag, a tag;  
@@ -26,10 +26,10 @@
   - Style Precedence
     理解html和CSS怎样相互作用的
 - Validation
-  What valid, what invalid? Validation的重要性？what can results if validation is used?
+  What valid, what invalid? Validation的重要性？what can results if validation is unused?
 
 
-## JavaScript&Vue
+## [JavaScript&Vue](javaScript&vueSummerize.md)
 - JavaScript
   - Syntax & Semantics
   - DOM
