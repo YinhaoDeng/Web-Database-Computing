@@ -69,6 +69,20 @@ Tables are used to display **Tabular data**.
 Cells can be defined to span more than one row or column
 - Use `<colspan>` attribute to have a cell take up more space horizontally
 Use `<rowspan>` attribute to have a cell take up more space vertically
+```html
+<table>
+    <tr>
+        <th colspan=2>Header</th>
+    </tr>
+    <tr>
+      <td rowspan=2>Data</td>
+      <td>More data</td>
+    </tr>
+    <tr>
+        <td>Even more data</td>
+    </tr>
+</table>
+```
 
 
 
