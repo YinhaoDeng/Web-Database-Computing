@@ -16,7 +16,7 @@
 
 
 
-## [1.0 HTML & CSS 点我](subSummerize/html&css&validationSummerize.md)
+## [1.0 HTML & CSS 点我](subSummarize/html&css&validationSummarize.md)
 - HTML
   - Syntax & Semantics  
     tags eg. heading tag, paragraph tag, a tag;  
@@ -33,7 +33,7 @@
 
 
 
-## [2.0 JavaScript&Vue](subSummerize/javaScript&vueSummerize.md)
+## [2.0 JavaScript&Vue](subSummarize/javaScript&vueSummarize.md)
 - JavaScript
   - Syntax & Semantics
   - DOM
@@ -46,7 +46,7 @@
 
 
 
-## [3.0 UserExperience](subSummerize/userExperienceSummerize.md)
+## [3.0 UserExperience](subSummarize/userExperienceSummarize.md)
 - Basic Principles of good website design
 - Cognitive & Kinematic Load
   >怎样影响用户界面
@@ -57,9 +57,9 @@
 
 
 
-## [4.0 Client/Server&NodeJS](subSummerize/clientServerNodeJSSummerize.md)
+## [4.0 Client/Server&NodeJS](subSummarize/clientServerNodeJSSummarize.md)
 - TCP/IP 5-layer model of the Internet
-  >5层的作？，怎样相互连接？
+  >5层的作用？，怎样相互连接？
 - URLs
   >URL的结构？每个部分的作用？和TCP/IP的关系？Protocol是什么？Protocol是属于哪个层的？hostname的作用？Portnumber?  _Can I run two node.js (express) servers on one machine? 如果可以，限制有哪些？它与哪一个Internet model有联系？_
 - HTTP requests and Responses
@@ -77,7 +77,7 @@
 
 
 
-## [5.0 Databases](subSummerize/databasesSummerize.md)
+## [5.0 Databases](subSummarize/databasesSummarize.md)
 - Basic Principles of Relational Databases
   > Advantages/Disadvantages to other storage methods?为甚不把一堆东西放在一个文件里？
 - E-R models
@@ -92,7 +92,7 @@
 
 
 
-## [6.0 Security](securitySummerize.md) 
+## [6.0 Security](securitySummarize.md) 
 - Best practice for handling passwords and user data
  >熟悉 best practice fo handling, password hashing, password salting, how do they provide us with the security?
 - Diferent types of threats and mitigation
