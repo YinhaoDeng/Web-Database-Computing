@@ -1,7 +1,8 @@
 # week 3 精炼
 
-## JavaScript
-定义：
+## 1.0 JavaScript
+
+### 1.0 定义：
 - Dynamic
   - Code is interpreted as it is executed
 - Weakly Typed
@@ -16,7 +17,7 @@
   - Generate customised content on a web server and send to client
 - Client Side
   - Execute code in client's Browser
-### Syntax & Semantics 语法语义
+### 1.1 Syntax & Semantics 语法语义
 C-Style Syntax:
 - Lines end in **;**
 - Code blocks enclosed in **{ }**
@@ -47,7 +48,9 @@ anywhere
   isItMonday();
 ```
 use the `<script>` tag 内嵌于HTML，来执行JS命令。
-#### _inline_ 表示法:
+
+
+#### 1.1.1 _inline_ 表示法:
 ```html
 <script>
     // Some javascript...
@@ -76,7 +79,9 @@ use the `<script>` tag 内嵌于HTML，来执行JS命令。
   </body>
 </html>
 ```
-#### _external_表示法：
+
+
+#### 1.1.2 _external_ 表示法：
 `<script src="file.js"></script>`
 ```html
 <!DOCTYPE html>
@@ -91,14 +96,14 @@ use the `<script>` tag 内嵌于HTML，来执行JS命令。
 </html>
 ```
 
-事件驱动来启动Javasript：
-例：
+事件驱动Javasript：
+短例：
 ```html
     <button onclick="alert('Hello')">
         Let's find out!
     </button>
 ```
-例：
+大例：
 ```javascript
 <!DOCTYPE html>
 <html>
@@ -114,7 +119,9 @@ use the `<script>` tag 内嵌于HTML，来执行JS命令。
     </body>
 </html>
 ```
-#### `<script>` Tag 的位置哲学
+
+
+#### 1.1.3 `<script>` Tag 的位置哲学
 下面给出垃圾案例和优秀案例：(两个案例共用同样的JS file.)
 JavaScript:
 ```Javascript
@@ -125,12 +132,11 @@ for (var i=0; i<array1.length; i++) {
     console.log(array1[i]);
 }
 var heading = document.getElementById('my_heading');
-heading.innerHTML = str1
+heading.innerHTML = str1;
 ```
-
-垃圾案例：（不能正确运行）
 HTML:
 ```html
+<!---垃圾案例：（不能正确运行）--->
 <html>
     <head>
         <title>Monday</title>
@@ -140,9 +146,8 @@ HTML:
         <h1 id="my_heading">Is it Monday?</h1>
     </body>
 </html>
-```
-优秀案例：
-```html
+
+<!------优秀案例：------->
 <html>
     <head>
         <title>Monday</title>
@@ -156,18 +161,7 @@ HTML:
 小结：`<script>` tag应该和它对应的功能放在HTML文件里的同一个板块。不能出现以上情况：`<script>` tag 放在`<head>` tag里，而真正用到JS是在`<body>` tag里。
 
 
-###Javascript Object
-JavaScript里的原始类型：
-1. string
-2. number
-3. boolean
-4. null
-5. undefined
-除此之外，其他所有的都是对象(object). _原文：All JavaScript values, except primitives, are objects._
-
-其他Object篇章， 略。详见[Javascript课堂PPT](../PPT课件汇集/week3/W03L08.pdf)
-
-#### NUll空字符
+#### 1.1.4 NUll空字符
 抛出问题：通常在无法找到要求的元素时发生。
 解决方案：通过使用if check 或者 try-catch block来避免。
 ```html
@@ -191,7 +185,7 @@ JavaScript里的原始类型：
     </body>
 </html>
 ```
-#### 区分 == 和 ===
+#### 1.1.5 区分 == 和 ===
 - JavaScript does automatic type conversions.
 - Comparing two equivalent values will yield a **true** result
 - Can result in unexpected behaviour
@@ -203,19 +197,32 @@ JavaScript里的原始类型：
     `if (x === 0) { ... }`
 - 还搞不清楚？那就用 **===**对了。
 
+### 1.2 Javascript Object
+JavaScript里的原始类型：
+1. string
+2. number
+3. boolean
+4. null
+5. undefined
+除此之外，其他所有的都是对象(object). _原文：All JavaScript values, except primitives, are objects._
+
+其他Object篇章,略。详见[Javascript Object课堂PPT](../PPT课件汇集/week3/W03L08.pdf)
 
 
-## DOM 文档对象模型
+
+------------------------------------------------
+
+## 2.0 DOM 文档对象模型
 the Docment Object Model
-### 定义
+### 2.1 定义
 ![DOM tree](../pictureOfSummarize/DOMTree.png)
 1. Object based representation of an XML document.
 2. Tree Structure
 3. Provides a way for us to naviate a document in
 Javascript.
 
-### DOM的使用
-#### 用DOM来选择元素
+### 2.2 DOM的使用
+#### 2.2.1 用DOM来选择元素
 1. 用 ID     只影响一个
    `var element = document.getElementByID('SomeID');`
 2. 用 类名(className)   会影响一堆
@@ -229,7 +236,7 @@ Javascript.
 6. Using an element we already have to get its children:
    `var child_elements = element.children;`
 
-#### 用DOM来操控
+#### 2.2.2 用DOM来操控
 1. 得到content
    ```javascript
    var text = element.innerText;
@@ -256,7 +263,7 @@ Javascript.
 8. 直接设置style    _注意与4相比较_
    `element.style.color = "red";`
 
-DOM大例子：
+DOM大例：
 ```javascript
 function byId() {
     var item = document.getElementById("demo");
@@ -284,7 +291,7 @@ function byCSS() {
     }
 }
 ```
-###操控DOM树例子
+### 2.3 操控DOM树例子
 1. 创建新元素
    `var newElement = document.createElement('P');`
 2. 把一个元素和另一个元素连接
@@ -294,3 +301,7 @@ function byCSS() {
    ```
 3. 移除子元素
    `parent.removeChild(newElement);`
+
+---
+
+## VUE

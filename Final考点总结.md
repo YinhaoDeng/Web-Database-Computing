@@ -91,7 +91,7 @@
 
 
 
-## [6.0 Security](securitySummarize.md) 
+## [6.0 Security](subSummarize/securitySummarize.md) 
 - Best practice for handling passwords and user data
  >熟悉 best practice fo handling, password hashing, password salting, how do they provide us with the security?
 - Diferent types of threats and mitigation
