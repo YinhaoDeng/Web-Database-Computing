@@ -32,7 +32,6 @@
 
 
 
-
 ## [2.0 JavaScript&Vue](subSummarize/javaScript&vueSummarize.md)
 - JavaScript
   - Syntax & Semantics

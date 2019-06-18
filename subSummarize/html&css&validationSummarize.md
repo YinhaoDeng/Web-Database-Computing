@@ -1,4 +1,4 @@
-# week 1精炼
+# week 1 2精炼
 
 ## HTML
 
@@ -129,7 +129,7 @@ should appear.
 4. CSS allows us to style multiple web pages with a single stylesheet.
 
 ### CSS语法syntax
-![CSS syntax picture](week2/cssSyntax.PNG)
+![CSS syntax picture](../pictureOfSummarize/cssSyntax.PNG)
 
 ### CSS的使用
 1. External Style Sheet
