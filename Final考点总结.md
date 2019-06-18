@@ -52,7 +52,7 @@
 - Semantic HTML
   >作用？
 - WCAG 4 Principles of Accessibility
-  >是什么？implications for a given website.  给定一个网页图，说说他哪里好，符合什么要素？！
+  >是什么？implications for a given website.  给定一个网页图，说说他哪里好，符合什么要素？
 
 
 
