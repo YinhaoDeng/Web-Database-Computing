@@ -154,7 +154,7 @@ backround.
 7. JavaScript updates the page
 
 #### 4.3.4 同步与异步对比 Asynchronous vs Synchronous
-![Asynchronous vs Synchronous](../pictureOfSummarize/asynchronousVsSynchronous.png)
+![Asynchronous vs Synchronous](../pictureOfSummarize/asynchronousVsSynchronous.PNG)
 小结：Asynchronous code allows us to prevent the main event loop from blocking while we wait for a response.
 This allows the user to continue to interact with the page, which they would not be able to do if
 synchronous.
