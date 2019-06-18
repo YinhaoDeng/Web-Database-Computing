@@ -30,7 +30,7 @@
 - Validation
   What valid, what invalid? Validation的重要性？what can results if validation is unused?
 
-给v给
+
 
 ## [2.0 JavaScript&Vue](subSummarize/javaScript&vueSummarize.md)
 - JavaScript
